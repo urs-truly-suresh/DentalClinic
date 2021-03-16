@@ -1,0 +1,372 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,700);
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(101, 226, 243);
+  }
+  a.navbar-brand span {
+      color:#111111f3;
+      font-size:35px;
+  }
+  
+  
+  /* .navbar-collapse {
+      float:right;
+      padding-right: 15px;
+      padding-left: 15px;
+      overflow-x: visible;
+      -webkit-overflow-scrolling: touch;
+      border-top: 0;
+  
+  } */
+    .navbar-nav{
+      margin-left: 200px;
+    }
+  .navbar-nav li >  a {
+    position: relative;
+    display: block;
+    padding: 15px 5px;
+    margin-left: 20px;
+    color: rgb(101, 226, 243);
+   
+  }
+ 
+  .navbar-nav > li > a:hover {
+      background-color:rgb(101, 226, 243);
+      border: solid 1px ;
+      border-radius: 10%;
+      background: transparent;
+
+   }
+ 
+   .booknow {
+    box-shadow:inset 0px 1px 0px 0px #f3f8fa;
+    background-color:transparent;
+    border-radius:9px;
+    border:1px solid rgb(101, 226, 243);
+    display:inline-block;
+    cursor:pointer;
+    color:rgb(101, 226, 243);
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    padding:10px 20px;  
+    margin-left: 20px; 
+    
+  }
+  .booknow:hover {
+    background-color:rgb(101, 226, 243);
+    color: #f0f7fa;
+  }
+  .booknow:active {
+    position:relative;
+    top:1px;
+  }
+  .main-banner{
+  background-image: url(images/person-transparent-2.png);
+  background-size:  100%;
+  height: 500px;
+  max-width: 100%; 
+  background-position: right;
+  background-attachment: fixed;
+ 
+  }
+  .main-banner h1{    
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+    margin-top: 10px;
+    margin-left: 50px;  
+    color:rgb(101, 226, 243) ;
+    display: block;
+    
+  }
+  .main-banner p{
+    padding: 15px 50px;
+    width: 45%;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgb(212, 213, 214);
+  }
+   .main-banner span{ 
+    font-size: 1.2rem;
+    margin-top: 100px;
+    margin-left: 60px;
+    font-weight: 500;
+    color: rgb(211, 197, 197);
+    display: inline-block;
+    
+  }
+   
+   .btn-lg{
+     margin-left: 100px;
+   }
+   .values-section{
+    background-color: #e8e4e1;
+   margin-left: 0px;
+  }
+  .values-section h2 {
+    color:#cc7a44 ;
+  font-weight: 500; 
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 20px 15px;
+  margin-top: 100px;
+  margin-left: 40px;
+  }
+  .values-section span{
+    color: #cc7a44;
+    size: 15px;
+    margin-left: 55px;
+  
+  
+  }
+  .values-section h3{
+    font-weight: 400;
+    line-height: 3rem;
+  }
+  .img1{
+    height: 350px;
+    width: auto;
+    float: right;
+    margin-right: -100px;
+    margin-top: 50px;
+    align-items: right;
+  
+  }
+  .img2{
+    height: 250px;
+    width: auto;
+    float: right;
+    margin-right: -20px;
+    margin-top: -50px;
+    align-items: right;
+  
+  }
+   em{
+     font-size: 2.6rem;
+     color: rgb(101, 226, 243);
+     float: left;
+    
+   }
+   .block-heading-1 span{ 
+    font-size: 1.2rem;   
+    font-weight: 500;
+    color: rgb(211, 197, 197);
+    display: block;
+    margin-top: 20px;
+   }
+
+#icon
+{
+  height: 90px;
+  width: auto;
+  float: left;
+  border-radius: 60%;
+  border: 4px #fff solid;
+  margin-left: -40px;
+  margin-top: 30px;
+  background-color:rgb(101, 226, 243);
+ 
+ 
+
+}
+.block-feature-1{
+  background-color:#f7f7f7;
+  height: 170px;
+  width: 320px;
+  border: 10px;
+  box-shadow: 2px 1px 0 5px rgb(245, 248, 248);
+ 
+}
+.services {
+  cursor: pointer;
+
+  transition: 1s;
+}
+.services :hover{
+
+  transform: scale(1.1);
+
+} 
+h2{
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgb(101, 226, 243);
+  align-items: center;
+  text-align: center;
+}
+.block-feature-1 p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 10px 50px;
+  align-items: center;
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+.patients-section h1{
+  font-size: 3rem;
+  font-weight: 300;
+  color: #cc7a44;
+  margin-top: 20px;
+}
+.patients-section p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #b3b0af;
+}
+.insurance{
+  background-color: #cc7a44;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  width: max-content;
+  height: 20%;
+  box-shadow: 2px 1px 0 2px #f5f8f8;
+  border: none;
+
+}
+.patients-section img{
+  float: right;
+
+}
+
+.comments{
+  background-color: #f7f7f7;
+  height: 350px;
+ 
+}
+.comments em{
+  font-size: 1.4rem;  
+  color: dimgray;
+  margin-top: -50px;
+  font-weight: 500;
+}
+.carousel-item{ 
+  width: 500px;  
+   margin-top: 80px;   
+   margin-left: 400px;
+   text-align: left;
+   display: inline-block;
+   font-weight: 400;
+   font-size: 1.2rem;  
+}
+.comments span{
+font-size: 1.2rem;
+font-weight: 400;
+color:rgb(101, 226, 243) ;
+text-align: center;
+margin-left: 450px;
+margin-top: 20px;
+display: inline-block;
+}
+
+.getintouch p {
+font-size: 2.2rem;
+font-weight: 300;
+margin-top: 70px;
+margin-left: 200px;
+text-align: center;
+width: 800px;
+}
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background-color:#c24019;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:15px;
+	font-weight:bold;
+	padding:14px 24px;
+	text-decoration:none;
+  text-shadow:0px 1px 12px #854629;
+margin-left:500px;
+margin-bottom: 50px;
+
+
+}
+.btn:hover {
+	background-color:#bc3315;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer
+  {
+    padding: 50px 20px 15px;
+    background-image: linear-gradient(#cbe2fa,#b9b6af);
+    color: #fff;
+  }
+  .learnmore{
+    font-size: 12px;
+    color: rgb(241, 10, 48);
+    position:absolute;
+  }
+  .services a{
+    color: rgb(252, 249, 249);
+  }
+  
+  .direction{
+    display: block;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .footer h4
+  {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: rgb(218, 249, 253);
+  }
+  .footer p a 
+  {
+    font-size: 14px;
+    text-align: justify;
+    padding-right: 35px;
+    color: rgb(248, 246, 246);
+  }
+  .footer .row .fa
+  {
+    padding-right: 20px;
+    font-size: 15px;
+   
+  }
+  .footer hr
+  {
+    margin-top: 10px;
+    background: #efefef;
+  }
+  .fa-heart
+  {
+    margin :5px;
+    color: #f44336;
+  }
+  .footer .copyright
+  {
+    text-align: center;
+  }
